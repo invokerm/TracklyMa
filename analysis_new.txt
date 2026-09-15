@@ -1,0 +1,4 @@
+﻿Analyzing TracklyMa...                                          
+
+   info - Statements in an if should be enclosed in a block - lib\features\home\widgets\spending_chart_card.dart:175:19 - curly_braces_in_flow_control_structures
+

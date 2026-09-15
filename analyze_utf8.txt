@@ -1,0 +1,16 @@
+﻿Analyzing TracklyMa...                                          
+
+   info - Parameter 'key' could be a super parameter - lib\app\app.dart:7:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\features\assets\assets_screen.dart:10:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\features\common\widgets\app_scaffold.dart:10:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\features\common\widgets\circle_logo_badge.dart:7:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\features\common\widgets\glass_card.dart:14:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\features\home\home_screen.dart:11:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\features\onboarding\personalize_screen.dart:12:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\features\splash\splash_screen.dart:9:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\features\transactions\transactions_screen.dart:13:9 - use_super_parameters
+   info - Statements in an if should be enclosed in a block - lib\features\transactions\transactions_screen.dart:26:9 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\features\transactions\transactions_screen.dart:28:9 - curly_braces_in_flow_control_structures
+   info - Parameter 'key' could be a super parameter - lib\features\transactions\widgets\filter_chips_row.dart:10:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\features\transactions\widgets\transaction_tile.dart:11:9 - use_super_parameters
+

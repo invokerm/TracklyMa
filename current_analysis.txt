@@ -1,0 +1,30 @@
+﻿Analyzing TracklyMa...                                          
+
+  error - Target of URI doesn't exist: 'app/router.dart' - lib\app\app.dart:2:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: 'theme/app_theme.dart' - lib\app\app.dart:3:8 - uri_does_not_exist
+  error - Undefined name 'AppTheme' - lib\app\app.dart:13:14 - undefined_identifier
+  error - Undefined name 'router' - lib\app\app.dart:14:21 - undefined_identifier
+   info - The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' - lib\features\home\widgets\net_worth_card.dart:1:8 - unnecessary_import
+   info - The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' - lib\features\home\widgets\recent_activity_card.dart:9:8 - unnecessary_import
+   info - The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' - lib\features\home\widgets\spending_chart_card.dart:1:8 - unnecessary_import
+  error - Target of URI doesn't exist: 'package:provider/material.dart' - lib\features\home\widgets\spending_chart_card.dart:3:8 - uri_does_not_exist
+   info - Statements in an if should be enclosed in a block - lib\features\home\widgets\spending_chart_card.dart:239:19 - curly_braces_in_flow_control_structures
+   info - The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' - lib\features\transactions\transactions_screen.dart:1:8 - unnecessary_import
+   info - Statements in an if should be enclosed in a block - lib\features\transactions\transactions_screen.dart:282:7 - curly_braces_in_flow_control_structures
+   info - The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' - lib\theme\app_typography.dart:1:8 - unnecessary_import
+
+flutter : 12 issues found. 
+(ran in 1.6s)
+At line:1 char:1
++ flutter analyze --no-pub 
+*>&1 | Out-File -Encoding 
+utf8 current_analy ...
++ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : 
+    NotSpecified: (12 issues  
+   found. (ran in 1.6s):Str   
+ ing) [], RemoteException
+    + FullyQualifiedErrorId : 
+    NativeCommandError
+ 

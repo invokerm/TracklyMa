@@ -1,0 +1,37 @@
+﻿Analyzing TracklyMa...                                          
+
+warning - Unused import: '../features/splash/splash_screen.dart' - lib\app\router.dart:3:8 - unused_import
+   info - The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' - lib\features\home\widgets\net_worth_card.dart:1:8 - unnecessary_import
+   info - The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' - lib\features\home\widgets\recent_activity_card.dart:1:8 - unnecessary_import
+warning - Unused import: '../../../theme/app_spacing.dart' - lib\features\home\widgets\recent_activity_card.dart:6:8 - unused_import
+  error - The argument type 'double?' can't be assigned to the parameter type 'double'.  - lib\features\home\widgets\recent_activity_card.dart:189:47 - argument_type_not_assignable
+  error - There's no constant named 'budgetExceeded' in 'AppEventType' - lib\features\home\widgets\recent_activity_card.dart:206:32 - undefined_enum_constant
+  error - There's no constant named 'budgetWarning' in 'AppEventType' - lib\features\home\widgets\recent_activity_card.dart:207:32 - undefined_enum_constant
+  error - There's no constant named 'budgetExceeded' in 'AppEventType' - lib\features\home\widgets\recent_activity_card.dart:225:25 - undefined_enum_constant
+  error - There's no constant named 'budgetWarning' in 'AppEventType' - lib\features\home\widgets\recent_activity_card.dart:227:25 - undefined_enum_constant
+  error - There's no constant named 'budgetExceeded' in 'AppEventType' - lib\features\home\widgets\recent_activity_card.dart:244:25 - undefined_enum_constant
+  error - There's no constant named 'budgetWarning' in 'AppEventType' - lib\features\home\widgets\recent_activity_card.dart:246:25 - undefined_enum_constant
+  error - The operator '<' can't be unconditionally invoked because the receiver can be 'null' - lib\features\home\widgets\recent_activity_card.dart:256:30 - unchecked_use_of_nullable_value
+   info - The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' - lib\features\home\widgets\spending_chart_card.dart:1:8 - unnecessary_import
+   info - Statements in an if should be enclosed in a block - lib\features\home\widgets\spending_chart_card.dart:240:19 - curly_braces_in_flow_control_structures
+   info - The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' - lib\features\transactions\transactions_screen.dart:1:8 - unnecessary_import
+  error - The operator '<' can't be unconditionally invoked because the receiver can be 'null' - lib\features\transactions\transactions_screen.dart:276:34 - unchecked_use_of_nullable_value
+   info - Statements in an if should be enclosed in a block - lib\features\transactions\transactions_screen.dart:282:7 - curly_braces_in_flow_control_structures
+  error - The argument type 'double?' can't be assigned to the parameter type 'double'.  - lib\features\transactions\transactions_screen.dart:362:51 - argument_type_not_assignable
+   info - The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' - lib\theme\app_typography.dart:1:8 - unnecessary_import
+
+flutter : 19 issues found. 
+(ran in 1.7s)
+At line:1 char:1
++ flutter analyze --no-pub 
+*>&1 | Out-File -Encoding 
+utf8 analysis.txt
++ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : 
+    NotSpecified: (19 issues  
+   found. (ran in 1.7s):Str   
+ ing) [], RemoteException
+    + FullyQualifiedErrorId : 
+    NativeCommandError
+ 

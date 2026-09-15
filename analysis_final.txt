@@ -1,0 +1,7 @@
+﻿Analyzing TracklyMa...                                          
+
+  error - The name 'Asset' isn't a type, so it can't be used as a type argument - lib\data\mock_data.dart:7:21 - non_type_as_type_argument
+  error - The name 'Transaction' isn't a type, so it can't be used as a type argument - lib\data\mock_data.dart:9:21 - non_type_as_type_argument
+   info - Statements in an if should be enclosed in a block - lib\features\home\widgets\spending_chart_card.dart:186:7 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\features\home\widgets\spending_chart_card.dart:188:7 - curly_braces_in_flow_control_structures
+
